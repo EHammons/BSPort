@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/jared-brashier-6WPcf5D1XdA-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -110,6 +110,29 @@
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+}
+
+.masthead .social {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.masthead .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.masthead .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.masthead .social a:active {
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -144,6 +167,17 @@
   letter-spacing: .15rem;
   border: 0;
 }
+
+.projects-section .btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1rem;
+  font-family: 'Varela Round';
+  font-size: 70%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
 
 .btn-primary {
   background-color: #64a19d;
@@ -204,7 +238,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/kerensa-pickett-GjpUV4k76F8-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
