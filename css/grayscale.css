@@ -214,7 +214,7 @@
 }
 
 .projects-section .card {
-  margin: 5rem 1rem;
+  margin: 5rem 1rem !important;
 }
 
 @media (min-width: 992px) {
