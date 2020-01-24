@@ -213,6 +213,10 @@
   padding: 2rem;
 }
 
+.projects-section .card {
+  margin: 5rem 1rem;
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
