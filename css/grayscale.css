@@ -176,6 +176,7 @@
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+  margin: 1rem 0;
 }
 
 
@@ -211,10 +212,6 @@
 
 .projects-section .featured-text {
   padding: 2rem;
-}
-
-.card {
-  margin: 5rem 1rem !important;
 }
 
 @media (min-width: 992px) {
